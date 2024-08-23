@@ -1,0 +1,372 @@
+<html>
+<head>
+  <title>Login Form</title>
+</head>
+<body>
+    
+</body>
+</html>
+<link rel="stylesheet" href="./form.css">
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="container-1">
+            <h2>LEARN TO CODE WITH US.</h2>
+            <div class="ul">
+                <ul>
+                    <li>Learn to code</li>
+                    <li>Get a new Skill</li>
+                    <li>Get a new Job</li>
+                </ul>
+            </div>
+        </div>  
+      
+
+        <div class="container-2">
+            <form class="login-form">
+              <h2>Login</h2>
+              <div class="input-group">
+                  <p>Username Or Email</p><label for="user-email"></label><input type="text , email" name="user-email" id="username" autocomplete="off"
+                      placeholder="Type Your Username" required>
+              </div>
+              <div class="input-group">
+                  <p>Password</p> <label for="user-password"></label><input type="password" name="user-password" id="password" autocomplete="off"
+                      placeholder="Type Your password" required>
+              </div>
+              <div class="forgot-link">
+                  <a href="./forgot-page.html">Forgot Password?</a>
+              </div>
+              <div class="checkbox">
+                  <label for="checkbox"><input type="checkbox" name="checkbox" required> Remember me </label>
+              </div>
+              <label for="submit"><input type="submit" class="submit-btn" value="Login" name="submit"></label>
+              <div class="icons">
+                  <p>Or sign up using</p>
+                  <a href="https://www.facebook.com/login/"><img src="facebook.png" alt="">
+                  </a>
+                  <a href="#"><img src="twitter (1).png" alt="">
+                  </a>
+                  <a href="https://accounts.google.com/"><img src="search.png" alt="">
+                  </a>
+              </div>
+          </form>
+        </div>
+  </div>
+
+</body>
+
+</html>
+
+IT'S CSS PAGE:
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 50, 65);
+}
+
+.container {
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    margin-top:30px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(35, 190, 176)
+}
+
+.container-1 {
+    width: 397px;
+    height: 550px;
+    color: white;
+    background-color: rgb(35, 190, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url(cooooding.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    background-clip: border-box;
+}
+
+.container-1 h2 {
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.ul {
+    margin-top: 80%;
+    text-align: center;
+}
+
+.ul li {
+    display: inline;
+    padding: 10px;
+    font-size:15px;
+}
+
+
+.container-2 {
+    padding: 40px 0px 0px 20px;
+    width: 400px;
+    height: 510px;
+    background-color: whitesmoke;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.login-form h2 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.input-group p {
+    font-size: 13px;
+}
+
+.input-group input {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1.6px solid #589343;
+    font-size: 12px;
+    outline: none;
+    background-color:transparent;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    border-bottom-color: #274eea;
+}
+
+.forgot-link {
+    margin: -14px 20px 0px 0px;
+    font-size: 12px;
+    text-align: end;
+}
+
+.forgot-link a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.checkbox {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.icons {
+    text-align: start;
+    margin-top: 13%;
+}
+
+.icons p {
+    font-size: 14px;
+}
+
+.icons img {
+    margin-top: 8px;
+    width: 33px;
+}
+
+.icons a {
+    text-decoration: none;
+}
+
+.submit-btn {
+    margin-top: 20px;
+    padding: 9px 40px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(35, 190, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 0px 4px rgb(59, 50, 50);
+}
+.submit-btn:hover{
+    background-color:  rgb(122, 15, 235);
+}
+
+FORGOT PAGE.HTML
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign-in Form</title>
+        <link rel="stylesheet" href="./forgot-page.css">
+    </head>
+    
+    <body>
+        <div class="container">
+    
+            <div class="container-1">
+                <h2>LEARN TO CODE WITH US.</h2>
+                <div class="ul">
+                    <ul>
+                        <li>Learn to code</li>
+                        <li>Get a new Skill</li>
+                        <li>Get a new Job</li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="container-2">
+                <h2>Create Account</h2>
+                <div class="input-group">
+                    <p>Enter Your Name :</p><input type="text" id="username" autocomplete="off" placeholder="Username"
+                        required>
+                </div>
+                <div class="input-group">
+                    <p>Enter Your Email :</p><input type="email" id="username" autocomplete="off" placeholder="Email" required>
+
+                </div>
+                <div class="input-group">
+                    <p>Create New Password :</p><input type="password" autocomplete="off" id="password"
+                        placeholder=" password" required>
+                </div>
+                <div class="input-group">
+                    <p>Phone No :</p><input type="number" id="number" autocomplete="off" placeholder="Mobile number"
+                        required>
+                </div>
+                <div class="checkbox">
+                    <label for="checkbox"><input type="checkbox" name="checkbox" required> Remember me </label>
+                </div>
+                <button type="submit" class="login-btn">Sign in</button>
+            </div>
+            </form>
+        </div>
+    
+    
+        </div>
+    
+    </body>
+    
+    </html>
+
+FORFGOT PAGE.CSS
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(32, 50, 65);
+    
+}
+
+.container {
+    width: 800px;
+    height: 550px;
+    margin: auto;
+    margin-top:30px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgb(35, 190, 176)
+}
+
+.container-1 {
+    width: 397px;
+    height: 550px;
+    color: white;
+    background-color: rgb(35, 190, 176);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px 0px 0px 10px;
+    background-image: url(cooooding.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 60%;
+    background-clip: border-box;
+}
+
+.container-1 h2 {
+    text-align: center;
+    padding: 20px 40px;
+    font-size: 30px;
+    margin-top: 25px;
+}
+
+.ul {
+    margin-top: 80%;
+    text-align: center;
+}
+
+.ul li {
+    display: inline;
+    padding: 10px;
+    font-size:15px;
+}
+
+
+.container-2 {
+    padding: 40px 0px 0px 20px;
+    width: 400px;
+    height: 510px;
+    background-color: whitesmoke;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.container-2 h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 600;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-group {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+}
+
+.input-group p {
+    font-size: 14px;
+}
+
+.input-group input {
+    width: 90%;
+    width: 90%;
+    padding: 5px;
+    border: none;
+    border-bottom: 1.6px solid #589343;
+    font-size: 12px;
+    outline: none;
+    background-color:transparent;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    border-bottom-color: #274eea;
+}
+.checkbox {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.login-btn {
+    margin-top: 20px;
+    padding: 9px 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: rgb(35, 190, 176);
+}
+.login-btn:hover{
+    background-color:  rgb(122, 15, 235);
+}
+
+
